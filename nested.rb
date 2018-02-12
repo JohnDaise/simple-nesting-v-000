@@ -130,7 +130,7 @@ def adding_to_dennis
         }
      }
 
-		 new_lang = {[:dennis_ritchie][:languages]["Assembly"]}
+		 new_lang = {[:dennis_ritchie] => [:languages]["Assembly"]}
 		 programmer_hash.merge(new_lang)
 		 programmer_hash
 end
