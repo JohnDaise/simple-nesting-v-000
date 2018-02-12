@@ -116,7 +116,7 @@ def changing_alan
 		 }}
 		 programmer_hash.delete(alans_old_info)
 		 programmer_hash.merge(alans_new_info)
-		 puts programmer_hash
+	
 end
 
 def adding_to_dennis
