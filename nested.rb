@@ -132,5 +132,5 @@ def adding_to_dennis
 
 		 new_lang = "Assembly"
 		 programmer_hash.merge(new_lang)
-
+		 programmer_hash
 end
