@@ -106,17 +106,18 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-     alans_new_info = {:alan_kay => {
-			 :known_for => "GUI",
-			 :languages => ["Smalltalk", "LISP"]
-		 }}
-		 alans_old_info = {:alan_kay => {
-			 :known_for => "Object Orientation",
-			 :languages => ["Smalltalk", "LISP"]
-		 }}
-		 programmer_hash.delete(alans_old_info)
-		 programmer_hash.merge(alans_new_info)
-	
+     #alans_new_info = {:alan_kay => {
+			# :known_for => "GUI",
+			 #:languages => ["Smalltalk", "LISP"]
+		 #}}
+		 #alans_old_info = {:alan_kay => {
+			# :known_for => "Object Orientation",
+				#:languages => ["Smalltalk", "LISP"]
+		 #}}
+		 #programmer_hash.delete(alans_old_info)
+		 #programmer_hash.merge(alans_new_info)
+		 programmer_hash[:alan_kay][:known_for] = "GUI"
+
 end
 
 def adding_to_dennis
